@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.price-section, .chart-section, .sentiment-section, .you-may-like-section, .trending-section {
+  margin-bottom: 30px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  width: 200px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li img {
+  margin-right: 10px;
+}
+  
